@@ -11,6 +11,18 @@ module.exports = {
   darkMode: BLOG.APPEARANCE === 'class' ? 'media' : 'class', // or 'media' or 'class'
   theme: {
     fontFamily: fontFamilies,
+    fontSize: {
+      xs: '.625rem',
+      sm: '.75rem',
+      base: '0.875rem',
+      lg: '1rem',
+      xl: '1.125rem',
+      '2xl': '1.25rem',
+      '3xl': '1.5rem',
+      '4xl': '1.875rem',
+      '5xl': '2.25rem',
+      '6xl': '3rem'
+    },
     screens: {
       sm: '540px',
       // => @media (min-width: 576px) { ... }
